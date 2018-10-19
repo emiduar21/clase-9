@@ -1,0 +1,128 @@
+body {
+  font-family: arial, helvetica, sans-serif;
+}
+
+.boton, .boton-x, .boton-linea, .boton-grande, .boton-chico, .boton-rojo {
+  background: black;
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.boton-rojo {
+  background: red;
+}
+
+.boton-chico {
+  font-size: 14px;
+  padding: 5px 15px;
+}
+
+.boton-grande {
+  font-size: 20px;
+}
+
+.boton-linea {
+  background: none;
+  border: 1px solid #444;
+  color: #333;
+}
+
+.boton-x {
+  background: #456783;
+  transition: 0.5s;
+}
+.boton-x:hover {
+  background: #2b4051;
+  transform: scale(1.1);
+}
+
+.circulo1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.circulo2 {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.circulo3 {
+  width: 300px;
+  height: 300px;
+  background: pink;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.circulo {
+  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: red;
+  height: 100px;
+  width: 100px;
+}
+
+.boton-mx1 {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: #34578e;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 20px;
+  transition: 1s;
+}
+.boton-mx1:hover {
+  transform: scale(1.1);
+  background: #1f3556;
+}
+
+.boton-mx2 {
+  display: inline-block;
+  text-decoration: none;
+  color: red;
+  background: #35678e;
+  border-radius: 8px;
+  padding: 15px 50px;
+  font-size: 30px;
+  transition: 1s;
+}
+.boton-mx2:hover {
+  transform: scale(1.1);
+  background: #203f56;
+}
+
+.boton-mx3 {
+  display: inline-block;
+  text-decoration: none;
+  color: limegreen;
+  background: #12456e;
+  border-radius: 10px;
+  padding: 20px 20px;
+  font-size: 40px;
+  transition: 1s;
+}
+.boton-mx3:hover {
+  transform: scale(1.1);
+  background: #071c2c;
+}
+
+/*# sourceMappingURL=style.css.map */
